@@ -68,16 +68,19 @@ margin: 0 2.5%;
   font-size: 16px;
   border-radius: 8%;
 }
-#book-conteiner {
+#book-container {
   margin: 0px auto;
   width: 75%;
   margin-top: 5%;
-  
+}
+#book-container button {
+  margin-bottom: 10px;
 }
 #book-icon {
   display: flex;
   width: 40%;
   justify-content: space-between;
+  padding-left: 10px;
 }
 .icon-element {
   background-color: white;
@@ -110,12 +113,11 @@ margin: 0 2.5%;
   color: #1F3347;
   font-family:'Poppins', sans-serif;
   box-shadow: 0px 6px 24px 0px #E4E2EE;
-  
+  border-radius: 10px;
 }
 #input-block input {
   padding-top: 10%;
   padding-bottom: 10%;
-  border-width: 0;
   box-shadow: 0px 6px 24px 0px #E4E2EE;
   border-radius:7% ;
   padding-left: 5%;
@@ -136,6 +138,7 @@ margin: 0 2.5%;
   margin-left: 12.5%;
   width: 87.5%;
   display: flex;
+  margin-top: 300px;
 }
 #img1 {
 position: relative;
@@ -216,4 +219,8 @@ left: 28%;
 }
 #block3 img {
   margin-top: 80%;
+}
+
+.inputs {
+  border: 1px solid #b2b6bc;
 }
