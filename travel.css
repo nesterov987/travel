@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.hero #container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+
+  font-family:'Poppins', sans-serif;
+display: flex;
+height: 5vh;
+align-items: center;
+width: 100%;
+margin-bottom: 1.2rem;
+}
+#header_title {
+  margin-right: auto;
+  color: white;
+}
+#header_links a {
+  font-size: larger;
+  text-decoration: none;
+color: white;
+margin: 0 2.5%;
+}
+#header_links {
+  width: 58%;
+}
+#header_button button {
+  background-color: rgba(255, 200, 20, 1);
+  border: none;
+  padding: 10px 20px;
+  width: auto;
+}
+#main_text {
+  max-width: 32rem;
+  margin: 1.2rem 0;
+  padding: 2.5rem 0;
+}
+#main_text h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: bolder;
+  font-family:'Poppins', sans-serif;
+  margin-bottom: 0px;
+}
+#main_text p {
+  color: white;
+  font-family:'Poppins', sans-serif;
+  font-size: 16px;
+}
+#Exploration {
+  background-color: rgba(255, 200, 20, 1);
+  margin-right: 3%;
+}
+#main_buttons button {
+  border: none;
+  width: 160px;
+  height: 56px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 8%;
+}
+#book-container {
+  position: relative;
+  top: 3rem;
+  z-index: 2;
+  margin: 0px auto;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 8rem;
+}
+#book-container button {
+  margin-bottom: 10px;
+}
+#book-icon {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+.icon-element {
+  background-color: white;
+  width: 22%;
+  height: 2.5rem;
+  border-top-left-radius: 7%;
+  border-top-right-radius: 7%;
+  color: #1F3347;
+  font-family:'Poppins', sans-serif;
+  font-size: large;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  
+}
+.icon-element img {
+  margin-left: 10%;
+  margin-right: 7%;
+}
+.icon-element:hover {
+  background-color: rgba(255, 200, 20, 1);
+}
+#input-block {
+  display: flex;
+  flex-wrap: wrap; /* ключевая строка */
+  background-color: white;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: #1F3347;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0px 6px 24px 0px #E4E2EE;
+  border-radius: 10px;
+  padding: 20px;
+  gap: 15px;
+}
+#input-block input {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  box-shadow: 0px 6px 24px 0px #E4E2EE;
+  border-radius:7% ;
+  padding-left: 5%;
+}
+#input-block button {
+  background-color: rgba(255, 200, 20, 1);
+  border-width: 0;
+  width: 12.5%;
+  height: 45%;
+  margin-top: 5%;
+  border-radius:7% ;
+  font-family:'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: bolder;
+}
+#input-block > div {
+  flex: 1 1 150px;
+}
+#second-part {
+  margin-top: 2rem;
+  width: 100%;
+}
+#img1 {
+top: 0;
+}
+#list span {
+  border: 1px solid #9DA1B4;
+  color: #9DA1B4;
+  margin-right: 4%;
+}
+#block2 {
+  flex: 1;
+}
+#block1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#block3 {
+  flex: 1;
+}
+#block2 h3 {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#FFC814;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+#block2 h1 {
+  color: #1F3347;
+  font-weight: bolder;
+  font-size: 45px;
+  margin-top: 2px;
+
+}
+#block2 p {
+  color: #9DA1B4;
+  font-size: 16px;
+  font-family:'Poppins', sans-serif;
+}
+#list div {
+  margin-top: 0.8rem;
+  color: #9DA1B4;
+  font-size: 16px;
+  font-family:'Poppins', sans-serif;
+
+}
+#block-number {
+  display: flex;
+  justify-content: space-between;
+}
+#block-number h1 {
+  color: #FFC814;
+  font-weight: bolder;
+  font-family:'Poppins', sans-serif;
+  margin-bottom: 0px;
+
+}
+#block-number div {
+  width: 20%;
+}
+#block-number p {
+  margin-top: 0px;
+  font-family:'Poppins', sans-serif;
+  font-size: 20px;
+
+}
+#button button {
+  background-color: rgba(255, 200, 20, 1);
+  border-width: 0;
+  width: 35%;
+  height: 4rem;
+  margin-top: 5%;
+  border-radius:7% ;
+  font-family:'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+.inputs {
+  border: 1px solid #b2b6bc;
+}
+
+.about-container {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+
+  background-color: white;
+  border-radius: 20px;
+  padding: 2.5rem;
+}
+
+#hero {
+  background-image: url("./images/BG.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  
+  padding-bottom: 3rem;
+}
+
+@media (max-width: 1024px) {
+  
+  #input-block {
+    flex-wrap: wrap;
+  }
+
+  #main_text h1 {
+    font-size: 3rem;
+  }
+
+  #book-container {
+    top: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+    
+  }
+}
+
+@media (max-width: 768px) {
+  #main_text h1 {
+    font-size: 36px;
+  }
+
+  #main_buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #input-block {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #input-block button {
+    width: 100%;
+  }
+
+  #book-container {
+    top: 1rem;
+    margin-bottom: 3rem;
+  }
+}
